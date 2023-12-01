@@ -1,0 +1,29 @@
+p {
+    background-color: blue;
+}
+
+#Hugo {
+    color: blanchedalmond;
+}
+
+#Paco {
+    color: goldenrod;
+}
+.CH35 {
+    color: purple;
+}
+/*COMENTARIO PRUEBA*/
+.amarillo {
+    width: 200;
+    height: 200;
+    margin: 20px 50 px;
+    padding: 30px;
+    border: dotted yellow;
+}
+.roja {
+    width: 10;
+    height: 10;
+    margin: 5px 10 px;
+    padding: 10px;
+    border:dotted red
+}

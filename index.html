@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS </title>
+
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <!--
+Tenemos tres formas distintas de agregar estilos al documento html:
+
+1-Inline (en linea)
+
+Para trabajar con los estilos inline utilizamos la palabra reserva "style" y con esto ya le damos las intrucciones de lo que queremos añadir.
+
+Tiene mayor jerarquia sobre la etiqueta "style" 
+
+    -->
+    <h1>1-Inline</h1>
+
+     <p style="color: violet; background-color: green; font-size: xx-large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia labore quaerat repudiandae tenetur totam in pariatur dicta repellat impedit, esse velit. Maiores, repudiandae? Eius quos vero dolor deleniti odit.</p>
+
+<!--Utilizando la etiqueta <style>
+
+Cuando usamos los estilos dentro de la etiqueta  styl, "separamos" los estilos de etiqueta, para mantener un código limpio y claro
+
+-->
+<style>
+
+body {
+    background-color: royalblue;
+}
+
+</style>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia labore quaerat repudiandae tenetur totam in pariatur dicta repellat impedit, esse velit. Maiores, repudiandae? Eius quos vero dolor deleniti odit.</p>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia labore quaerat repudiandae tenetur totam in pariatur dicta repellat impedit, esse velit. Maiores, repudiandae? Eius quos vero dolor deleniti odit.</p>
+
+     <!--clases y ID
+    
+        Todos pertenecemos a la clase CH35
+        nuestro ID sería nuestro nombre
+    
+    la palabra reservada "clas" = clase (.)
+    la palabra reserva "ID" = id (#)
+    -->
+
+<div class="amarillo">
+
+    <h2 class="CH35" id="Hugo">Hugo</h2>
+    <h2 class="CH35" id="Paco">Paco</h2>
+
+</div>    
+
+<br>
+
+<div class="roja">
+
+    <h2 class="CH35" id="Luis">Luis</h2>
+    <h2 class="CH35" id="Donald">Donald</h2>
+</div>
+   
+
+
+
+    <!--
+        Tenemos tres formas distintas de agregar estilos al documento html:
+
+        2- Modelo de caja: Permite establecer el diseño de nuestro sitio web, ya que hace que nuestros elementos se preseneten en formas rectangulares y de esta forma podemos modificar el aspecto, tamaño, diseño, etc.
+    -->
+
+</body>
+</html>
